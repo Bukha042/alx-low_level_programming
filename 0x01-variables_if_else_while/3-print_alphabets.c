@@ -1,29 +1,20 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - Prints the alphabetic
  *
- * Return: Always 0 (Sucess/correct)
+ * Return: Always (Success)
  */
 int main(void)
-
 {
-char lower_case;
-char upper_case;
+	char c;
+	char b;
 
-for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
-{
-putchar(lower_case);
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+	for (b = 'A'; b <= 'Z'; b++)
+		putchar(b);
+
+	putchar('\n');
+	return (0);
 }
-
-
-for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
-{
-putchar(upper_case);
-}
-
-
-
-
-putchar ('\n');
-
-return (0);
