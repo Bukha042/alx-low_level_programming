@@ -1,17 +1,21 @@
 #include <stdio.h>
-
 /**
- * main - Prints the alphabetic
+ * main - Entry point
  *
- * Return: Always (Success)
+ * Return: Always 0 (success/corect)
  */
 int main(void)
+
 {
-	int c;
+int i;
 
-	for (c = '0'; c <= '9'; c++)
-		putchar(c);
+for (i = 48 ; i <= 57; i++)
+{
+putchar (i);
+}
 
-	putchar('\n');
-	return (0);
+putchar ('\n');
+
+return (0);
+
 }
