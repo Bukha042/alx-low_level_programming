@@ -1,19 +1,23 @@
 #include "main.h"
 
 /**
- * print_alphabet - print alphabet of letters
+ * main - prints _putchar
  *
- * Return: void
+ * Description: prints _putchar
+ *
+ * Return: 0 (Success)
  */
 
-void print_alphabet(void)
+int main(void)
 {
-	int i;
+	char text[9] = "_putchar";
+	int i = 0;
 
-	for (i = 'a'; i <= 'z'; i++)
-
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(i);
+		_putchar(text[i]);
 	}
 	_putchar('\n');
+
+	return (0);
 }
